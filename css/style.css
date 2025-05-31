@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Helvitica', sans-serif;
+  src: url(..fonts/helvitica.woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvitica-Bold', sans-serif;
+  src: url(..fonts/helvitica.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+
 html{
   box-sizing: border-box;
 }
@@ -19,4 +33,54 @@ li{
 
 img{
   max-width: 100%;
+}
+
+.container {
+  min-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+
+body {
+  font-family: 'Helvitica', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #5c5c5e;
+}
+
+.header {
+  border-bottom: 1px solid #cacad6;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.menu {
+  display: flex;
+  gap: 0 20px;
+}
+
+.basket {
+  position: relative;
+}
+
+.basket--on span {
+font-size: 12px;
+width: 12px;
+height: 12px;
+border-color: #000;
+border-radius: 50%;
+color: #fff;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+bottom: 0;
+right: -2px;
 }
