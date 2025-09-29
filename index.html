@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                   <a href="#buy" class="menu__link">SHOP</a>
               </li>
               <li class="menu__list">
-                  <a href="#game1" class="menu__link">GAMES</a>
+                  <a href="#game" class="menu__link">GAMES</a>
               </li>
               <li class="menu__list">
                   <a href="#metaverse" class="menu__link">METAVERSE</a>
@@ -179,7 +180,7 @@
 </div>
 </section>
 
-    <section class="game">
+    <section class="game" id="game">
       <div class="container">
         <h2 class="section-title game__title">GAMES</h2>
         <div class="game__inner">
@@ -212,17 +213,42 @@
         </div>
       </div>
     </section>
-    <section class="news">
+    <section class="news-1">
         <div class="container">
             <h2 class="news-title">NEWS</h2>
-            <div class="news-inner">
-                <div>
-                    
+                <div class="news-inner">
+                    <div class="news-item">
+                        <h3 class="news-item-title">New updates to Immersive Home</h3>
+                        <p class="news-item-text">With the v81 release, we're excited to introduce new updates
+                           to the way you experience home in Meta Horizon. Immersive Home
+                           gets a visual refresh with new scenery that’s easily accessible
+                           by pressing the left menu button. However, with this update, you will
+                           no longer have access to their previous home environments due to incompatibility
+                           with the enhanced functionality of v81, specifically, the larger Immersive Home
+                           footprint with more areas you can navigate, interact with, and customize.</p>
+                        <a href="#" class="news-item-link">see more</a>
+                    </div>
+                    <div class="news-item">
+                        <h3 class="news-item-title">New Horizon Central</h3>
+                        <p class="news-item-text">The new Horizon Central brings a completely new experience.
+                           It offers higher concurrency, faster travel, and a larger,
+                           more detailed environment. Additionally, Horizon Central now features
+                           a store where you can discover and try-on clothing from our top creators ,
+                           as well as a new Arena to enjoy concerts, comedy shows, and NBA games.</p>
+                        <a href="#" class="news-item-link">see more</a>
+                    </div>
+                    <div class="news-item">
+                        <h3 class="news-item-title">A new Arena</h3>
+                        <p class="news-item-text">A new immersive and realistic events space, where you’ll get the best seat in the house,
+                           whether you're joining from across the street or across the globe. The Horizon Arena brings
+                           you closer to the action and your favorite artists, comedians and sports team for truly
+                           personal and unforgettable events.</p>
+                        <a href="#" class="news-item-link">see more</a>
+                    </div>
                 </div>
-            </div>
         </div>
     </section>
-    <div class="buy">
+    <div class="buy" id="buy">
         <p class="buy__bg">OCULUS</p>
         <img class="buy__img" src="images/oculus.png" alt="oculus">
         <button class="buy-btn">
@@ -368,21 +394,41 @@
             <img src="images/review1.jpg" class="review1-img">
                <h4>Timur</h4>
             <p>Very good product!</p>
-               <img src="images/1.jpg" class="review-img">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star"></span>
         </div>
         <div class="reviews-div3">
              <img src="images/review2.png" class="review1-img">
                <h4>Maria</h4>
             <p>One of the best VR headsets</p>
-               <img src="images/1.jpg" class="review-img">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
         </div>
         <div class="reviews-div3">
             <img src="images/review3.jpg" class="review1-img">
                <h4>Alex</h4>
-            <p>Excellent quality!</p>
-               <img src="images/1.jpg" class="review-img">
+            <p>Questionable quality</p>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
         </div>
     </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <div class="container">
+        <h2 class="contact-title">Contact us</h2>
+        <p class="contact-details">contact details</p>
+        <p class="contact-email">oculus@gmail.com</p>
+        <p class="contact-number">(908) 686-1242</p>
     </div>
 </section>
   </main>

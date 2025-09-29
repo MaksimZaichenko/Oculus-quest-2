@@ -733,6 +733,7 @@ body{
 }
 
 .footer {
+  margin-top: 40px;
   border-top: 1px solid #cacad6;
   border-bottom: 1px solid #cacad6;
   margin-bottom: 44px;
@@ -1020,4 +1021,53 @@ body{
 .reviews-div3:hover {
   cursor: pointer;
   transform: scale(105%);
+}
+
+.news-inner {
+  margin-top: 20px;
+  white-space: nowrap;
+	font-size: 0;
+}
+
+.news-item {
+  white-space: normal;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-right: 5%;
+  font-size: 15px
+}
+
+.news-item-text {
+  margin-top: 7px;
+}
+
+.news-item-link {
+  color: #bc10d8;
+}
+
+.contact-title {
+  font-size: 34px;
+  color: #070707;
+  text-align: center;
+}
+
+.contact-details {
+  text-align: right;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.contact-email {
+  text-align: right;
+  margin-top: 5px;
+}
+
+.contact-number {
+  text-align: right;
+  margin-top: 2px;
+}
+
+.checked {
+  color: orange;
 }
